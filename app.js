@@ -3,7 +3,7 @@ const app = express();
 
 
 app.get('/', (req, res) => {
-    res.send("UPDATE: Welcome to the home page.");
+    res.send("UPDATE 710: Welcome to the home page.");
 });
 
 
