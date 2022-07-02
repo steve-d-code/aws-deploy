@@ -4,6 +4,7 @@ const app = express();
 
 app.get('/', (req, res) => {
     res.send("UPDATE 710: Welcome to the home page.");
+    res.send("<a href='index.html'>index</a>");
 });
 
 
